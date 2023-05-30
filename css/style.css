@@ -1,0 +1,252 @@
+<<<<<<< HEAD
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 25px;
+}
+
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    font-family: Roboto-Regular;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-image: url(/assets/images/icon-list.svg);
+    list-style-position: inside;
+}
+
+li {
+    padding: 5px 0;
+}
+
+h1 {
+    font-family: Roboto-Bold;
+    color: hsl(234, 29%, 20%);
+    font-size: 55px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(.//assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(.//assets/fonts/Roboto-Regular.ttf);
+}
+
+main {
+    background-color: #fff;
+    width: 800px;
+    height: 530px;
+    display: flex;
+    padding: 15px;
+
+    border-radius: 20px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: #acacac; */
+    margin: 30px 30px 30px 20px;
+}
+
+label {
+    text-align: center;
+}
+
+button,
+input {
+    width: 350px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+input {
+    padding-left: 10px;
+}
+
+button {
+    background-color: hsl(234, 29%, 20%);
+    color: #fff;
+    border-radius: 10px;
+}
+
+button:active {
+    background-color: hsl(4, 100%, 67%);
+}
+
+
+
+
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #999999;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+
+/* .input-control input:focus {
+    outline: 0;
+} */
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 25px;
+}
+
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    font-family: Roboto-Regular;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-image: url(/assets/images/icon-list.svg);
+    list-style-position: inside;
+}
+
+li {
+    padding: 5px 0;
+}
+
+h1 {
+    font-family: Roboto-Bold;
+    color: hsl(234, 29%, 20%);
+    font-size: 55px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(.//assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(.//assets/fonts/Roboto-Regular.ttf);
+}
+
+main {
+    background-color: #fff;
+    width: 800px;
+    height: 530px;
+    display: flex;
+    padding: 15px;
+
+    border-radius: 20px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: #acacac; */
+    margin: 30px 30px 30px 20px;
+}
+
+label {
+    text-align: center;
+}
+
+button,
+input {
+    width: 350px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+input {
+    padding-left: 10px;
+}
+
+button {
+    background-color: hsl(234, 29%, 20%);
+    color: #fff;
+    border-radius: 10px;
+}
+
+button:active {
+    background-color: hsl(4, 100%, 67%);
+}
+
+
+
+
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #999999;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+
+/* .input-control input:focus {
+    outline: 0;
+} */
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+>>>>>>> 5c9e78cfdf70812a2562ef928458f136328e79db
+}
